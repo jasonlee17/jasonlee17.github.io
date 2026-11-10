@@ -1,0 +1,73 @@
+---
+---
+
+/*
+ * This file controls what is imported from /_sass
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ */
+
+@import
+    "vendor/breakpoint/breakpoint",
+
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+
+    "include/mixins",
+    "vendor/susy/susy",
+
+    "layout/reset",
+    "layout/base",
+
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
+
+    "layout/forms",
+
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar"
+;
+
+/* Minimal monochrome customization. */
+:root {
+  --global-base-color: #111;
+  --global-bg-color: #fff;
+  --global-footer-bg-color: #fafafa;
+  --global-border-color: #e5e5e5;
+  --global-dark-border-color: #aaa;
+  --global-link-color: #111;
+  --global-link-color-hover: #555;
+  --global-link-color-visited: #333;
+  --global-masthead-link-color: #111;
+  --global-masthead-link-color-hover: #555;
+  --global-text-color: #222;
+  --global-text-color-light: #666;
+}
+
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.masthead,
+.page__footer {
+  box-shadow: none;
+}
+
+.author__avatar img {
+  border-radius: 2px;
+  filter: grayscale(100%);
+}
+
+.page__content img {
+  border-radius: 2px;
+}
