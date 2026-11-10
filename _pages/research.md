@@ -6,6 +6,13 @@ redirect_from:
   - /research.html
 ---
 
+**Current Research**
+
+- To be updated, but please check out our new work on SN-Unite!
+  - [SN-Unite analysis I](https://arxiv.org/abs/2609.05053)
+  - [SN-Unite analysis II](https://arxiv.org/abs/2609.05321)
+  - [YouTube video](https://www.youtube.com/watch?v=KT-j65gRnOQ)
+
 ## Type Ia supernova cosmology
 
 ![Diagram of wavelength-dependent atmospheric effects](/images/lambda_dependent_diagram_240320.png){: .align-center width="620" }
