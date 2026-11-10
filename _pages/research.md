@@ -9,8 +9,8 @@ redirect_from:
 **Current Research**
 
 - To be updated, but please check out our new work on SN-Unite!
-  - [SN-Unite analysis I](https://arxiv.org/abs/2609.05053)
-  - [SN-Unite analysis II](https://arxiv.org/abs/2609.05321)
+  - [SN-Unite: Cosmology Paper](https://arxiv.org/abs/2609.05053)
+  - [SN-Unite: Host-Galaxy Stellar Mass Paper](https://arxiv.org/abs/2609.05321)
   - [YouTube video](https://www.youtube.com/watch?v=KT-j65gRnOQ)
 
 ## Type Ia supernova cosmology
